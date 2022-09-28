@@ -98,6 +98,13 @@ body {
 
 .container-what {
     text-align: center;
+    margin-top: 8%;
+    margin-bottom: 4%;
+}
+
+.container-what h2 {
+  font-size: 2rem;
+
 }
 
 .what-sect img {
@@ -109,11 +116,16 @@ body {
     width: 30%;
     text-align: center;
     justify-content: center;
-    border: solid 4px red;
+    /* border: solid 4px red; */
     margin: 2%;
     align-items: center;
     display: flex;
     flex-direction: column;
+}
+
+.what-sect h4 {
+  color: #1DB954;
+  font-size: 1.3rem;
 }
 
 .section-yeezy {
@@ -121,29 +133,37 @@ body {
     background-image: url(../images/spotify-icon-white.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 20%;
+    background-size: 12%;
     background-color: #1DB954;
     margin-left: 5%;
     margin-right: 5%;
     padding: 2%;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+
 }
 
 .section-yeezy h3 { 
     text-decoration: underline;
     text-decoration-color: white;
+    /* padding-bottom: 10%; */
 }
 
-.app {
-    width: 25%;
+.column-1 {
+  width: 100%;
+  right: 0;
 }
 
-/* .section-yeezy:hover,
-.sect-teo:hover {
 
-} */
-
-  
+.column-2 img {
+  width: 60%;
+  margin-left: 25%;
+  /* margin-top: -39%; */
+}
+ 
   @media screen and (max-width: 500px) {
     .header a {
       float: none;
